@@ -221,6 +221,5 @@ I learned by writing code, breaking things, debugging them, and connecting diffe
 
 **Saba Ramzan**
 
-Final-Year Computer Science Student  
-DevOps and DevSecOps Engineer
+Final-Year Computer Science Student - DevOps & DevSecOps Engineer
 Exploring **Agentic AI for DevOps**
