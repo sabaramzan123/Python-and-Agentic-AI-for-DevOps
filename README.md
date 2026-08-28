@@ -222,4 +222,5 @@ I learned by writing code, breaking things, debugging them, and connecting diffe
 **Saba Ramzan**
 
 Final-Year Computer Science Student  
-Exploring **DevOps • Cloud • Agentic AI**
+DevOps and DevSecOps Engineer
+Exploring **Agentic AI for DevOps**
