@@ -1,0 +1,19 @@
+2026-08-27 08:15:01,234 [INFO] [main] org.example.service.UserService: Database connection established successfully.
+
+2026-08-27 08:15:02,589 [INFO] [main] org.example.service.UserService: Initializing user synchronization scheduler.
+
+2026-08-27 08:16:34,112 [WARNING] [http-nio-8080-exec-3] org.example.security.JwtFilter: Expired JWT token received from IP 192.168.1.45.
+
+2026-08-27 08:16:34,115 [INFO] [http-nio-8080-exec-3] org.example.security.JwtFilter: Redirecting user to login page.
+
+2026-08-27 08:18:12,401 [WARNING] [main] org.example.config.AppConfig: High memory utilization detected (84% usage). Threshold is 80%.
+
+2026-08-27 08:20:00,005 [INFO] [scheduler-1] org.example.task.SyncTask: Starting daily backup process.
+
+2026-08-27 08:20:15,782 [ERROR] [scheduler-1] org.example.task.SyncTask: Failed to write backup data to remote destination.
+
+java.io.IOException: Connection timed out after 15000ms
+    at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+    at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+    
+2026-08-27 08:20:15,790 [INFO] [scheduler-1] org.example.task.SyncTask: Retrying backup process in 5 minutes.
